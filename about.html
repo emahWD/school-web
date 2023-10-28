@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>
+            LittleRookie | school
+        </title>
+         <link rel="icon" href="title-image.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <section class="sub-header">
+         
+        <nav>
+    <a href="index.html"><h1 class="title">littleRookie</h1></a>
+    
+    <div style="right: -200px;" class="nav-links" id="navLinks">
+        <iconify-icon width="30" height="30" id="showMenu" style="color: white;" class="fa" icon="iconamoon:close-bold" onclick="hidemenu()"></iconify-icon>
+        <ul>
+            <li ><a href="index.html" class="toggle-in">HOME</a></li>
+            <li class="toggle-in"><a href="about.html">ABOUT</a></li>
+            <li class="toggle-in"><a href="course.html">COURSE</a></li>
+            <li class="toggle-in"><a href="blog.html">BLOG</a></li>
+            <li class="toggle-in"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <iconify-icon icon="mingcute:menu-fill" class="fb btn-hover-b" style="color: white;" width="24" height="24" color onclick="showMenu()"></iconify-icon>
+</nav>
+    <h1 class="abt animation-container">About Us</h1>
+        </section>
+
+<!-------------------About Us content------------>
+
+<section class="about-us">
+    <div class="about-col">
+        <h1 class="animation-container">We are the world's largest university</h1>
+        <p class="animation-container">Empowering Excellence, Enriching Lives: Discover Our Journey and Passion for Delivering Quality Solutions. Learn How We Strive to Make a Positive Impact in Your World.</p>
+        <a href="" class="hero-btn">EXPLORE NOW</a>
+    </div>
+
+    <div class="about-col">
+        <img class="box" src="img/class4.jpg" alt="">
+    </div>
+</section>
+
+
+a
+
+
+        <section class="footer" data-aos="fade-up"
+        data-aos-duration="3000">
+            <h4>About Us</h4>
+            <p>Discover Our Story: Empowering Excellence and Inspiring Minds at littleRookie University</p>
+            <div class="icons">
+                <iconify-icon icon="entypo-social:facebook"></iconify-icon>
+                <iconify-icon icon="fa6-brands:square-twitter"></iconify-icon>
+            
+            </div>
+            <p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="index.html">littleRookie Uni</a>. All Rights Reserved. Design by <a href="https://emah_wd" target="_blank" class="text-primary">Emah WD</a>
+              </p>
+        </section>
+
+
+        <script>
+            /*--======================togglr bar======================== */
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = '1.0000000000000000000000000000000000000000000000000000000000000000000000001px';
+    }
+
+
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+        </script>
+        
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    </body>
+</html>
